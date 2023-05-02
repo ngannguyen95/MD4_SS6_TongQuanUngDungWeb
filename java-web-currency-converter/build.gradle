@@ -26,8 +26,6 @@ dependencies {
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
-    // https://mvnrepository.com/artifact/com.jd/jd-gui
-    implementation group: 'com.jd', name: 'jd-gui', version: '1.6.6'
     compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
 
 }
